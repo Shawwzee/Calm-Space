@@ -7,8 +7,4 @@ A web-based meditation application built using HTML, CSS and Javascript, users c
 
 The sounds and videos used in this project are not owned by myself and only used for demonstrative purposes, if your content is being used in this project and you want it removed, please message me and I will remove it.
 
-# Notes
-
-- The duration buttons do not function at the moment but will be functional in a later update.
-
 Any and all constructive feedback is appreciated!
