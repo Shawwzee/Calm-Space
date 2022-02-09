@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Calm Space</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <section id="title">
+        <div class="container">
+            <h1 class="text-white">Calm Space</h1>
+            <p class="text-white">What would you like to relax to today?</p>
+        </div>
+    </section>
+
+    <div class="content">
+
+        <section id="play">
+            <i id="btn" class="fas fa-play"></i>
+            <p id="songTxt">Pick Your Sound</p>
+        </section>
+
+        <section id="type">
+            <audio id="song" src="./sounds/seaside.mp3">
+            </audio>
+            <div class="top">
+                <img id="img-top-left" href="wildlife video.html" src="img/forest.jpeg" data-sound="forest" alt="">
+                <img id="img-top-right" class="selected" src="img/seaside.jpeg" data-sound="seaside" alt="">
+            </div>
+            <div class="bottom">
+                <img id="img-bottom-left" src="img/city.jpeg" data-sound="city" alt="">
+                <img id="img-bottom-right" src="img/wildlife.jpeg" data-sound="wildlife" alt="">
+            </div>
+        </section>
+
+        <section id="time">
+            <div class="container">
+                <div class="buttons">
+                    <button id="twoMins" class="selected">2 minutes</button>
+                    <button id="fiveMins">5 minutes</button>
+                    <button id="tenMins">10 minutes</button>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <div id="videoPlayer">
+        <i id="exitBtn" class="fas fa-times"></i>
+        <video id="video">
+        </video>
+    </div>
+
+    <div id="footer">
+        <p>Created by Shawn Sutton</p>
+    </div>
+
+</body>
+<script src="js/app.js"></script>
+
+</html>
